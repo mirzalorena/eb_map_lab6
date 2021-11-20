@@ -8,7 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 using Microsoft.Extensions.DependencyInjection;
-using Mirza_Lorena_Lab2.Data;
+using LibraryModel.Data;
 
 namespace Mirza_Lorena_Lab2
 {

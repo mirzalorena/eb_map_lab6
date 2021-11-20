@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K1ohaX7+Eac1c81D1Dq+dqUc88YJhgaCDFRFQWgmbgjGScRlBf6PydeaEMtDWJlG0PmvaTNFOSykssPBCgla3w==",
+  "dgSpecHash": "adquQ/2y6by+G/LvlpLTCfWsu5q9bNv5j+ThHhc/yXPg/m1ndBWvzG+jJ0w2wFMqIna4XLDmi1kChEGOS+NZUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\OneDrive\\Documents\\facultate\\FSEGA\\map\\Mirza_Lorena_Lab2\\Mirza_Lorena_Lab2\\Mirza_Lorena_Lab2.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\OneDrive\\Documents\\facultate\\FSEGA\\map\\Mirza_Lorena_Lab6\\Mirza_Lorena_Lab2\\Mirza_Lorena_Lab2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

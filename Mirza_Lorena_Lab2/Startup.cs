@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-using Mirza_Lorena_Lab2.Data;
+using LibraryModel.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace Mirza_Lorena_Lab2

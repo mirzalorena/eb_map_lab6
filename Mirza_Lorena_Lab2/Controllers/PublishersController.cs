@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Mirza_Lorena_Lab2.Data;
-using Mirza_Lorena_Lab2.Models;
+using LibraryModel.Data;
+using LibraryModel.Models;
 
-using Mirza_Lorena_Lab2.Models.LibraryViewModels;
+using LibraryModel.Models.LibraryViewModels;
 
 namespace Mirza_Lorena_Lab2.Controllers
 {

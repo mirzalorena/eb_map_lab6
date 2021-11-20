@@ -8,8 +8,8 @@ using System.Linq;
 using System.Threading.Tasks;
 
 using Microsoft.EntityFrameworkCore;
-using Mirza_Lorena_Lab2.Data;
-using Mirza_Lorena_Lab2.Models.LibraryViewModels;
+using LibraryModel.Data;
+using LibraryModel.Models.LibraryViewModels;
 
 namespace Mirza_Lorena_Lab2.Controllers
 {

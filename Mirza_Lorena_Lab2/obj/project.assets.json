@@ -2747,6 +2747,20 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "LibraryModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.20",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.20"
+        },
+        "compile": {
+          "bin/placeholder/LibraryModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibraryModel.dll": {}
+        }
       }
     }
   },
@@ -8815,10 +8829,16 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "LibraryModel/1.0.0": {
+      "type": "project",
+      "path": "../LibraryModel/LibraryModel.csproj",
+      "msbuildProject": "../LibraryModel/LibraryModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "LibraryModel >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.20",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.20",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.20",
@@ -8831,11 +8851,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\OneDrive\\Documents\\facultate\\FSEGA\\map\\Mirza_Lorena_Lab2\\Mirza_Lorena_Lab2\\Mirza_Lorena_Lab2.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\OneDrive\\Documents\\facultate\\FSEGA\\map\\Mirza_Lorena_Lab6\\Mirza_Lorena_Lab2\\Mirza_Lorena_Lab2.csproj",
       "projectName": "Mirza_Lorena_Lab2",
-      "projectPath": "C:\\Users\\Asus\\OneDrive\\Documents\\facultate\\FSEGA\\map\\Mirza_Lorena_Lab2\\Mirza_Lorena_Lab2\\Mirza_Lorena_Lab2.csproj",
+      "projectPath": "C:\\Users\\Asus\\OneDrive\\Documents\\facultate\\FSEGA\\map\\Mirza_Lorena_Lab6\\Mirza_Lorena_Lab2\\Mirza_Lorena_Lab2.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\OneDrive\\Documents\\facultate\\FSEGA\\map\\Mirza_Lorena_Lab2\\Mirza_Lorena_Lab2\\obj\\",
+      "outputPath": "C:\\Users\\Asus\\OneDrive\\Documents\\facultate\\FSEGA\\map\\Mirza_Lorena_Lab6\\Mirza_Lorena_Lab2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8851,7 +8871,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Asus\\OneDrive\\Documents\\facultate\\FSEGA\\map\\Mirza_Lorena_Lab6\\LibraryModel\\LibraryModel.csproj": {
+              "projectPath": "C:\\Users\\Asus\\OneDrive\\Documents\\facultate\\FSEGA\\map\\Mirza_Lorena_Lab6\\LibraryModel\\LibraryModel.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

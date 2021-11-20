@@ -180,3 +180,12 @@ C:\Users\Asus\OneDrive\Documents\facultate\FSEGA\map\Mirza_Lorena_Lab2\Mirza_Lor
 C:\Users\Asus\OneDrive\Documents\facultate\FSEGA\map\Mirza_Lorena_Lab2\Mirza_Lorena_Lab2\obj\Debug\netcoreapp3.1\Razor\Views\Publishers\Details.cshtml.g.cs
 C:\Users\Asus\OneDrive\Documents\facultate\FSEGA\map\Mirza_Lorena_Lab2\Mirza_Lorena_Lab2\obj\Debug\netcoreapp3.1\Razor\Views\Publishers\Edit.cshtml.g.cs
 C:\Users\Asus\OneDrive\Documents\facultate\FSEGA\map\Mirza_Lorena_Lab2\Mirza_Lorena_Lab2\obj\Debug\netcoreapp3.1\Razor\Views\Publishers\Index.cshtml.g.cs
+C:\Users\Asus\OneDrive\Documents\facultate\FSEGA\map\Mirza_Lorena_Lab6\Mirza_Lorena_Lab2\obj\Debug\netcoreapp3.1\Mirza_Lorena_Lab2.csprojAssemblyReference.cache
+C:\Users\Asus\OneDrive\Documents\facultate\FSEGA\map\Mirza_Lorena_Lab6\Mirza_Lorena_Lab2\obj\Debug\netcoreapp3.1\Mirza_Lorena_Lab2.AssemblyInfoInputs.cache
+C:\Users\Asus\OneDrive\Documents\facultate\FSEGA\map\Mirza_Lorena_Lab6\Mirza_Lorena_Lab2\obj\Debug\netcoreapp3.1\Mirza_Lorena_Lab2.AssemblyInfo.cs
+C:\Users\Asus\OneDrive\Documents\facultate\FSEGA\map\Mirza_Lorena_Lab6\Mirza_Lorena_Lab2\obj\Debug\netcoreapp3.1\Mirza_Lorena_Lab2.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Documents\facultate\FSEGA\map\Mirza_Lorena_Lab6\Mirza_Lorena_Lab2\obj\Debug\netcoreapp3.1\Mirza_Lorena_Lab2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Asus\OneDrive\Documents\facultate\FSEGA\map\Mirza_Lorena_Lab6\Mirza_Lorena_Lab2\obj\Debug\netcoreapp3.1\Mirza_Lorena_Lab2.RazorAssemblyInfo.cache
+C:\Users\Asus\OneDrive\Documents\facultate\FSEGA\map\Mirza_Lorena_Lab6\Mirza_Lorena_Lab2\obj\Debug\netcoreapp3.1\Mirza_Lorena_Lab2.RazorAssemblyInfo.cs
+C:\Users\Asus\OneDrive\Documents\facultate\FSEGA\map\Mirza_Lorena_Lab6\Mirza_Lorena_Lab2\obj\Debug\netcoreapp3.1\Mirza_Lorena_Lab2.dll
+C:\Users\Asus\OneDrive\Documents\facultate\FSEGA\map\Mirza_Lorena_Lab6\Mirza_Lorena_Lab2\obj\Debug\netcoreapp3.1\Mirza_Lorena_Lab2.pdb
