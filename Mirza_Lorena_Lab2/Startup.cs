@@ -30,8 +30,7 @@ namespace Mirza_Lorena_Lab2
         {
             services.AddControllersWithViews();
 
-            services.AddDbContext<LibraryContext>(options =>
- options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<LibraryContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddSignalR();
         }
 
@@ -53,6 +52,7 @@ namespace Mirza_Lorena_Lab2
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -61,6 +61,7 @@ namespace Mirza_Lorena_Lab2
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapHub<ChatHub>("/chathub");
+                endpoints.MapRazorPages();
             });
         }
     }
