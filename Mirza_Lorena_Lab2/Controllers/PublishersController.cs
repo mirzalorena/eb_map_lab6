@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using LibraryModel.Data;
 using LibraryModel.Models;
 
-using LibraryModel.Models.LibraryViewModels;
+using Mirza_Lorena_Lab2.Models.LibraryViewModels;
 
 namespace Mirza_Lorena_Lab2.Controllers
 {

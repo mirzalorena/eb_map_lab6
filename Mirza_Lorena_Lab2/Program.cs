@@ -10,6 +10,8 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using LibraryModel.Data;
 
+using Mirza_Lorena_Lab2.Models;
+
 namespace Mirza_Lorena_Lab2
 {
     public class Program

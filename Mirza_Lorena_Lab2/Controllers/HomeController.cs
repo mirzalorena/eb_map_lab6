@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Mirza_Lorena_Lab2.Models;
+using LibraryModel.Models;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -9,7 +9,8 @@ using System.Threading.Tasks;
 
 using Microsoft.EntityFrameworkCore;
 using LibraryModel.Data;
-using LibraryModel.Models.LibraryViewModels;
+using LibraryModel.Models;
+using Mirza_Lorena_Lab2.Models.LibraryViewModels;
 
 namespace Mirza_Lorena_Lab2.Controllers
 {

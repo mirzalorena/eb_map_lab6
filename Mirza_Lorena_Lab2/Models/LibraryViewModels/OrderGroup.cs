@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 using System.ComponentModel.DataAnnotations;
-namespace LibraryModel.Models.LibraryViewModels
+namespace Mirza_Lorena_Lab2.Models.LibraryViewModels
 {
     public class OrderGroup
     {

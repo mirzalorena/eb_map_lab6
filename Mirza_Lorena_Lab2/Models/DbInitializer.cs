@@ -5,8 +5,10 @@ using System.Threading.Tasks;
 
 using LibraryModel.Models;
 
+using LibraryModel.Data;
 
-namespace LibraryModel.Data
+
+namespace Mirza_Lorena_Lab2.Models
 {
     public class DbInitializer
     {
