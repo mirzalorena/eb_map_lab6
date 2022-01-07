@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Mirza_Lorena_Lab2.Data;
+using LibraryModel.Data;
 
 namespace Mirza_Lorena_Lab2.Migrations
 {
