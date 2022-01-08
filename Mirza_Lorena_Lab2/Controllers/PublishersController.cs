@@ -8,10 +8,17 @@ using Microsoft.EntityFrameworkCore;
 using LibraryModel.Data;
 using LibraryModel.Models;
 
+using Microsoft.AspNetCore.Authorization;
+
+//using Identity.Models;
+using Microsoft.AspNetCore.Identity;
+using System.Security.Claims;
+
 using Mirza_Lorena_Lab2.Models.LibraryViewModels;
 
 namespace Mirza_Lorena_Lab2.Controllers
 {
+    [Authorize(Policy = "OnlySales")]
     public class PublishersController : Controller
     {
         private readonly LibraryContext _context;

@@ -12,6 +12,8 @@ using System.Threading.Tasks;
 using LibraryModel.Data;
 using Microsoft.EntityFrameworkCore;
 
+using Mirza_Lorena_Lab2.Hubs;
+
 namespace Mirza_Lorena_Lab2
 {
     public class Startup
@@ -28,8 +30,29 @@ namespace Mirza_Lorena_Lab2
         {
             services.AddControllersWithViews();
 
-            services.AddDbContext<LibraryContext>(options =>
- options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<LibraryContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddSignalR();
+
+            services.AddRazorPages();
+
+            services.AddAuthorization(opts => {
+                opts.AddPolicy("OnlySales", policy => {
+                    policy.RequireClaim("Department", "Sales");
+                });
+            });
+
+            services.AddAuthorization(opts => {
+                opts.AddPolicy("SalesManager", policy => {
+                    policy.RequireRole("Manager");
+                    policy.RequireClaim("Department", "Sales");
+                });
+            });
+            services.ConfigureApplicationCookie(opts =>
+            {
+                opts.AccessDeniedPath = "/Identity/Account/AccessDenied";
+
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,6 +73,7 @@ namespace Mirza_Lorena_Lab2
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -57,6 +81,8 @@ namespace Mirza_Lorena_Lab2
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapHub<ChatHub>("/chathub");
+                endpoints.MapRazorPages();
             });
         }
     }

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 using Microsoft.EntityFrameworkCore;
 using LibraryModel.Data;
-using LibraryModel.Models;
+using Mirza_Lorena_Lab2.Models;
 using Mirza_Lorena_Lab2.Models.LibraryViewModels;
 
 namespace Mirza_Lorena_Lab2.Controllers
@@ -20,6 +20,11 @@ namespace Mirza_Lorena_Lab2.Controllers
         public HomeController(LibraryContext context)
         {
             _context = context;
+        }
+
+        public IActionResult Chat()
+        {
+            return View();
         }
 
         public async Task<ActionResult> Statistics()
