@@ -430,3 +430,9 @@ C:\Users\Asus\OneDrive\Documents\facultate\FSEGA\map\Mirza_Lorena_Lab6\Mirza_Lor
 C:\Users\Asus\OneDrive\Documents\facultate\FSEGA\map\Mirza_Lorena_Lab6\Mirza_Lorena_Lab2\obj\Debug\netcoreapp3.1\Razor\Views\Roles\Update.cshtml.g.cs
 C:\Users\Asus\OneDrive\Documents\facultate\FSEGA\map\Mirza_Lorena_Lab6\Mirza_Lorena_Lab2\bin\Debug\netcoreapp3.1\Microsoft.PowerBI.Api.dll
 C:\Users\Asus\OneDrive\Documents\facultate\FSEGA\map\Mirza_Lorena_Lab6\Mirza_Lorena_Lab2\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.dll
+C:\Users\Asus\OneDrive\Documents\facultate\FSEGA\map\Mirza_Lorena_Lab6\Mirza_Lorena_Lab2\obj\Debug\netcoreapp3.1\Razor\Views\CustomersGrpc\Create.cshtml.g.cs
+C:\Users\Asus\OneDrive\Documents\facultate\FSEGA\map\Mirza_Lorena_Lab6\Mirza_Lorena_Lab2\obj\Debug\netcoreapp3.1\Razor\Views\CustomersGrpc\Index.cshtml.g.cs
+C:\Users\Asus\OneDrive\Documents\facultate\FSEGA\map\Mirza_Lorena_Lab6\Mirza_Lorena_Lab2\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\Asus\OneDrive\Documents\facultate\FSEGA\map\Mirza_Lorena_Lab6\Mirza_Lorena_Lab2\bin\Debug\netcoreapp3.1\Grpc.Core.Api.dll
+C:\Users\Asus\OneDrive\Documents\facultate\FSEGA\map\Mirza_Lorena_Lab6\Mirza_Lorena_Lab2\bin\Debug\netcoreapp3.1\Grpc.Net.Client.dll
+C:\Users\Asus\OneDrive\Documents\facultate\FSEGA\map\Mirza_Lorena_Lab6\Mirza_Lorena_Lab2\bin\Debug\netcoreapp3.1\Grpc.Net.Common.dll
